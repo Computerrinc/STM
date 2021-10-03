@@ -1,0 +1,263 @@
+<html> 
+<head> 
+<title>Screen Time Manger System</title>
+
+ <!-- Favicon -->
+        <link rel="icon" type="image/png" sizes="64x64" href="https://win98icons.alexmeub.com/icons/png/application_hourglass-0.png">
+        <!-- Apple/Safari icon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://win98icons.alexmeub.com/icons/png/application_hourglass-0.png">
+        <!-- Square Windows tiles -->
+        <meta name="msapplication-square70x70logo" content="https://win98icons.alexmeub.com/icons/png/application_hourglass-0.png">
+        <meta name="msapplication-square150x150logo" content="https://win98icons.alexmeub.com/icons/png/application_hourglass-0.png">
+        <meta name="msapplication-square310x310logo" content="https://win98icons.alexmeub.com/icons/png/application_hourglass-0.png">
+        <!-- Rectangular Windows tile -->
+        <meta name="msapplication-wide310x150logo" content="Logowide.png">
+        <!-- Windows tile theme color -->
+     
+</head>
+<body>
+<center>
+<img src="logo.bmp" alt="Hour glass logo 0 from windows 98. With the words Screen Time Manger System."></img><H1>Screen Time Manger</H1>
+<br>
+<br>
+<style>
+body {
+background-color:black;
+color:red;
+}
+	.demo {
+		border:1px solid #C0C0C0;
+		border-collapse:collapse;
+		padding:5px;
+	}
+
+	.demo td {
+		border:1px solid #C0C0C0;
+		padding:5px;
+	}
+</style>
+<table class="demo">
+	
+	<thead>
+	<tr>
+
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td><input type="text"></input></td>
+	</tr>
+	<tr>
+		<td><input type="text"></input></td>
+	</tr>
+	<tr>
+		<td><input type="text"></input></td>
+	</tr>
+	<tr>
+		<td><input type="text"></input></td>
+	</tr>
+	<tr>
+		<td><input type="text"></input></td>
+	</tr>
+	<tr>
+		<td><input type="text"></input></td>
+	</tr>
+	<tr>
+		<td><input type="text"></input></td>
+	</tr>
+	<tr>
+		<td><input type="text"></input></td>
+	</tr>
+	<tr>
+		<td><input type="text"></input></td>
+	</tr>
+	<tr>
+		<td><input type="text"></input></td>
+	</tr>
+	<tr>
+		<td><input type="text"></input></td>
+	</tr>
+	<tr>
+		<td><input type="text"></input></td>
+	</tr>
+	<tbody>
+</table>
+</center>
+<style>
+input[type=text] {
+border:none;
+}
+
+
+input:focus {
+    outline: none !important;
+}
+
+</style>
+<input type="search" value="YouTube Time" id="YT">
+<button onclick="YT()">Copy text</button>
+
+<script>
+function YT() {
+  /* Get the text field */
+  var copyText = document.getElementById("YT");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+  
+  /* Alert the copied text */
+  alert("Copied");
+}
+</script>
+<br>
+<br>
+<input type="search" value="School Time" id="ST">
+<button onclick="ST()">Copy text</button>
+
+<script>
+function ST() {
+  /* Get the text field */
+  var copyText = document.getElementById("ST");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+  
+  /* Alert the copied text */
+  alert("Copied");
+}
+</script>
+<br>
+<br>
+<input type="search" value="Screen Break" id="SB">
+<button onclick="SB()">Copy text</button>
+
+<script>
+function SB() {
+  /* Get the text field */
+  var copyText = document.getElementById("SB");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+  
+  /* Alert the copied text */
+  alert("Copied");
+}
+</script>
+<br>
+<br>
+<input type="search" value="Exercise Break" id="EB">
+<button onclick="EB()">Copy text</button>
+
+<script>
+function EB() {
+  /* Get the text field */
+  var copyText = document.getElementById("EB");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+  
+  /* Alert the copied text */
+  alert("Copied");
+}
+</script>
+<br>
+<br>
+<input type="search" value="Reading Break" id="RB">
+<button onclick="RB()">Copy text</button>
+
+<script>
+function RB() {
+  /* Get the text field */
+  var copyText = document.getElementById("RB");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+  
+  /* Alert the copied text */
+  alert("Copied");
+}
+</script>
+<br>
+<br>
+<input type="search" value="Other Non Screen Activity" id="ONSA">
+<button onclick="ONSA()">Copy text</button>
+
+<script>
+function ONSA() {
+  /* Get the text field */
+  var copyText = document.getElementById("ONSA");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+  
+  /* Alert the copied text */
+  alert("Copied");
+}
+</script>
+<br>
+<br>
+<input type="search" value="Other Screen Activity" id="OSA">
+<button onclick="OSA()">Copy text</button>
+
+<script>
+function OSA() {
+  /* Get the text field */
+  var copyText = document.getElementById("OSA");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+  
+  /* Alert the copied text */
+  alert("Copied");
+}
+</script>
+<br>
+<br>
+<center>
+<div class="tip" style="width:400;">
+<p>Try to only look at a screen for  two hours per day as recommended by the <a href="https://www.health.gov.au/health-topics/physical-activity-and-exercise/physical-activity-and-exercise-guidelines-for-all-australians/for-children-and-young-people-5-to-17-years" target="_blank">Australian Government Department of health</a>. School work does not count.</p>
+<style>
+.tip {
+background-color:black;
+color:red;
+font-family:sans-serif;
+}
+
+a {
+color:red;
+}
+</style>
+<br>
+</center>
+</div>
+
+</html>
+</body>
